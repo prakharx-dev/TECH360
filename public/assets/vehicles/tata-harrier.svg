@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#fff7ed"/>
+  <g fill="#081029" font-family="Inter, Arial, sans-serif">
+    <text x="100" y="220" font-size="42" font-weight="700">Tata</text>
+    <text x="100" y="280" font-size="64" font-weight="800">Harrier</text>
+    <rect x="100" y="330" width="940" height="220" rx="20" fill="#0ea5a4" />
+    <g transform="translate(140,380)" fill="#021" >
+      <rect x="0" y="10" width="420" height="28" rx="8" fill="#fff" opacity="0.12" />
+    </g>
+  </g>
+</svg>

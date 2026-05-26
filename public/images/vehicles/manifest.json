@@ -1,0 +1,702 @@
+{
+  "maruti-suzuki-swift": {
+    "vehicle": "Maruti Suzuki Swift",
+    "category": "car",
+    "file": "/images/vehicles/cars/maruti-suzuki-swift.webp",
+    "page": "https://www.cardekho.com/maruti/swift",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/9226/1755777061785/front-left-side-47.jpg?tr=w-664"
+  },
+  "hyundai-creta": {
+    "vehicle": "Hyundai Creta",
+    "category": "car",
+    "file": "/images/vehicles/cars/hyundai-creta.webp",
+    "page": "https://www.cardekho.com/hyundai/creta",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/8667/1755765115423/front-left-side-47.jpg?tr=w-664"
+  },
+  "tata-harrier": {
+    "vehicle": "Tata Harrier",
+    "category": "car",
+    "file": "/images/vehicles/cars/tata-harrier.webp",
+    "page": "https://www.cardekho.com/tata/harrier",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Harrier/9368/1766125794560/front-left-side-47.jpg?tr=w-664"
+  },
+  "mahindra-xuv700": {
+    "vehicle": "Mahindra XUV700",
+    "category": "car",
+    "file": "/images/vehicles/cars/mahindra-xuv700.webp",
+    "page": "https://www.cardekho.com/mahindra/xuv700",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/XUV700/10794/1762509966753/front-left-side-47.jpg?tr=w-664"
+  },
+  "toyota-innova-hycross": {
+    "vehicle": "Toyota Innova Hycross",
+    "category": "car",
+    "file": "/images/vehicles/cars/toyota-innova-hycross.webp",
+    "page": "https://www.cardekho.com/toyota/innova-hycross",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Toyota/Innova-Hycross/12719/1776918655192/front-left-side-47.jpg?tr=w-664"
+  },
+  "honda-city": {
+    "vehicle": "Honda City",
+    "category": "car",
+    "file": "/images/vehicles/cars/honda-city.webp",
+    "page": "https://www.cardekho.com/honda/city",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Honda/City/13585/1779442198348/front-left-side-47.jpg?tr=w-664"
+  },
+  "kia-seltos": {
+    "vehicle": "Kia Seltos",
+    "category": "car",
+    "file": "/images/vehicles/cars/kia-seltos.webp",
+    "page": "https://www.cardekho.com/kia/seltos",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/13094/1778328978290/front-left-side-47.jpg?tr=w-664"
+  },
+  "mahindra-scorpio-n": {
+    "vehicle": "Mahindra Scorpio-N",
+    "category": "car",
+    "file": "/images/vehicles/cars/mahindra-scorpio-n.webp",
+    "page": "https://www.cardekho.com/mahindra/scorpio-n",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Scorpio-N/10818/1755775730308/front-left-side-47.jpg?tr=w-664"
+  },
+  "maruti-suzuki-baleno": {
+    "vehicle": "Maruti Suzuki Baleno",
+    "category": "car",
+    "file": "/images/vehicles/cars/maruti-suzuki-baleno.webp",
+    "page": "https://www.cardekho.com/carmodels/Maruti/Maruti_Baleno",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/10492/1755851821713/front-left-side-47.jpg?tr=w-664"
+  },
+  "tata-nexon": {
+    "vehicle": "Tata Nexon",
+    "category": "car",
+    "file": "/images/vehicles/cars/tata-nexon.webp",
+    "page": "https://www.cardekho.com/tata/nexon",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon/11115/1779101151711/front-left-side-47.jpg?tr=w-664"
+  },
+  "skoda-slavia": {
+    "vehicle": "Skoda Slavia",
+    "category": "car",
+    "file": "/images/vehicles/cars/skoda-slavia.webp",
+    "page": "https://www.cardekho.com/carmodels/Skoda/Skoda_Slavia",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Skoda/Slavia/11951/1779266772137/front-left-side-47.jpg?tr=w-664"
+  },
+  "volkswagen-virtus": {
+    "vehicle": "Volkswagen Virtus",
+    "category": "car",
+    "file": "/images/vehicles/cars/volkswagen-virtus.webp",
+    "page": "https://www.cardekho.com/volkswagen/virtus",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Volkswagen/Virtus/10617/1755846730435/front-left-side-47.jpg?tr=w-664"
+  },
+  "hyundai-i20": {
+    "vehicle": "Hyundai i20",
+    "category": "car",
+    "file": "/images/vehicles/cars/hyundai-i20.webp",
+    "page": "https://www.cardekho.com/hyundai/i20",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/i20/11092/1755774177956/front-left-side-47.jpg?tr=w-664"
+  },
+  "toyota-fortuner": {
+    "vehicle": "Toyota Fortuner",
+    "category": "car",
+    "file": "/images/vehicles/cars/toyota-fortuner.webp",
+    "page": "https://www.cardekho.com/carmodels/Toyota/Toyota_Fortuner",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Toyota/Fortuner/10904/1755846017683/front-left-side-47.jpg?tr=w-664"
+  },
+  "mg-hector": {
+    "vehicle": "MG Hector",
+    "category": "car",
+    "file": "/images/vehicles/cars/mg-hector.webp",
+    "page": "https://www.cardekho.com/mg/hector",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/MG/Hector/13125/1768813549348/front-left-side-47.jpg?tr=w-664"
+  },
+  "mahindra-thar": {
+    "vehicle": "Mahindra Thar",
+    "category": "car",
+    "file": "/images/vehicles/cars/mahindra-thar.webp",
+    "page": "https://www.cardekho.com/mahindra/thar",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/12264/1776055307473/front-left-side-47.jpg?tr=w-664"
+  },
+  "kia-carens": {
+    "vehicle": "Kia Carens",
+    "category": "car",
+    "file": "/images/vehicles/cars/kia-carens.webp",
+    "page": "https://www.cardekho.com/kia/carens",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Carens/11623/1772787448187/front-left-side-47.jpg?tr=w-664"
+  },
+  "honda-elevate": {
+    "vehicle": "Honda Elevate",
+    "category": "car",
+    "file": "/images/vehicles/cars/honda-elevate.webp",
+    "page": "https://www.cardekho.com/honda/elevate",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Honda/Elevate/12099/1758802336858/front-left-side-47.jpg?tr=w-664"
+  },
+  "maruti-suzuki-brezza": {
+    "vehicle": "Maruti Suzuki Brezza",
+    "category": "car",
+    "file": "/images/vehicles/cars/maruti-suzuki-brezza.webp",
+    "page": "https://www.cardekho.com/maruti/brezza",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Brezza/10400/1770885013083/front-left-side-47.jpg?tr=w-664"
+  },
+  "maruti-suzuki-grand-vitara": {
+    "vehicle": "Maruti Suzuki Grand Vitara",
+    "category": "car",
+    "file": "/images/vehicles/cars/maruti-suzuki-grand-vitara.webp",
+    "page": "https://www.cardekho.com/carmodels/Maruti/Maruti_Grand_Vitara",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Grand-Vitara/10508/1779258364618/front-left-side-47.jpg?tr=w-664"
+  },
+  "hyundai-verna": {
+    "vehicle": "Hyundai Verna",
+    "category": "car",
+    "file": "/images/vehicles/cars/hyundai-verna.webp",
+    "page": "https://www.cardekho.com/hyundai/verna",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Verna-Facelift/13312/1773040519044/front-left-side-47.jpg?tr=w-664"
+  },
+  "tata-punch": {
+    "vehicle": "Tata Punch",
+    "category": "car",
+    "file": "/images/vehicles/cars/tata-punch.webp",
+    "page": "https://www.cardekho.com/tata/punch",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Punch/13243/1768986024623/front-left-side-47.jpg?tr=w-664"
+  },
+  "nissan-magnite": {
+    "vehicle": "Nissan Magnite",
+    "category": "car",
+    "file": "/images/vehicles/cars/nissan-magnite.webp",
+    "page": "https://www.cardekho.com/nissan/magnite",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Nissan/Magnite/11793/1760004620755/front-left-side-47.jpg?tr=w-664"
+  },
+  "renault-kiger": {
+    "vehicle": "Renault Kiger",
+    "category": "car",
+    "file": "/images/vehicles/cars/renault-kiger.webp",
+    "page": "https://www.cardekho.com/renault/kiger",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Kiger/12295/1764934839670/front-left-side-47.jpg?tr=w-664"
+  },
+  "skoda-kushaq": {
+    "vehicle": "Skoda Kushaq",
+    "category": "car",
+    "file": "/images/vehicles/cars/skoda-kushaq.webp",
+    "page": "https://www.cardekho.com/skoda/kushaq",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Skoda/Kushaq/13279/1779266052419/front-left-side-47.jpg?tr=w-664"
+  },
+  "tata-nexon-ev": {
+    "vehicle": "Tata Nexon EV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/tata-nexon-ev.webp",
+    "page": "https://www.cardekho.com/tata/nexon-ev",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon-EV/11024/1755845297648/front-left-side-47.jpg?tr=w-664"
+  },
+  "tata-tiago-ev": {
+    "vehicle": "Tata Tiago EV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/tata-tiago-ev.webp",
+    "page": "https://www.cardekho.com/tata/tiago-ev",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Tiago-EV/6279/1770888490912/front-left-side-47.jpg?tr=w-664"
+  },
+  "tata-punch-ev": {
+    "vehicle": "Tata Punch EV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/tata-punch-ev.webp",
+    "page": "https://www.cardekho.com/tata/punch-ev",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Punch-EV/13330/1772693950592/front-left-side-47.jpg?tr=w-664"
+  },
+  "mg-zs-ev": {
+    "vehicle": "MG ZS EV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/mg-zs-ev.webp",
+    "page": "https://www.cardekho.com/mg/zs-ev",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/MG/ZS-EV/11503/1755845485024/front-left-side-47.jpg?tr=w-664"
+  },
+  "byd-atto-3": {
+    "vehicle": "BYD Atto 3",
+    "category": "ev",
+    "file": "/images/vehicles/evs/byd-atto-3.webp",
+    "page": "https://www.cardekho.com/byd/atto-3",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/BYD/Atto-3/11837/1768891336368/front-left-side-47.jpg?tr=w-664"
+  },
+  "byd-seal": {
+    "vehicle": "BYD Seal",
+    "category": "ev",
+    "file": "/images/vehicles/evs/byd-seal.webp",
+    "page": "https://www.cardekho.com/byd/seal",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/BYD/Seal/9561/1770881231451/front-left-side-47.jpg?tr=w-664"
+  },
+  "hyundai-ioniq-5": {
+    "vehicle": "Hyundai Ioniq 5",
+    "category": "ev",
+    "file": "/images/vehicles/evs/hyundai-ioniq-5.webp",
+    "page": "https://www.cardekho.com/hyundai/ioniq-5",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/IONIQ-5-Facelift/13531/1777375118845/front-left-side-47.jpg?tr=w-664"
+  },
+  "mahindra-xuv400": {
+    "vehicle": "Mahindra XUV400",
+    "category": "ev",
+    "file": "/images/vehicles/evs/mahindra-xuv400.webp",
+    "page": "https://www.cardekho.com/cars/Mahindra",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Scorpio-N/10818/1755775730308/front-left-side-47.jpg?impolicy=resize&imwidth=480"
+  },
+  "kia-ev6": {
+    "vehicle": "Kia EV6",
+    "category": "ev",
+    "file": "/images/vehicles/evs/kia-ev6.webp",
+    "page": "https://www.cardekho.com/kia/ev6",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/EV6/11740/1760005604163/front-left-side-47.jpg?tr=w-664"
+  },
+  "volvo-xc40-recharge": {
+    "vehicle": "Volvo XC40 Recharge",
+    "category": "ev",
+    "file": "/images/vehicles/evs/volvo-xc40-recharge.webp",
+    "page": "https://www.cardekho.com/volvo/ex40",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Volvo/EX40/11561/1752651534577/front-left-side-47.jpg?tr=w-664"
+  },
+  "bmw-i4": {
+    "vehicle": "BMW i4",
+    "category": "ev",
+    "file": "/images/vehicles/evs/bmw-i4.webp",
+    "page": "https://www.cardekho.com/bmw/i4",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/i4/9693/1762776805472/front-left-side-47.jpg?tr=w-664"
+  },
+  "audi-e-tron": {
+    "vehicle": "Audi e-tron",
+    "category": "ev",
+    "file": "/images/vehicles/evs/audi-e-tron.webp",
+    "page": "https://www.cardekho.com/audi/e-tron",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Audi/e-tron/6591/1677914324939/front-left-side-47.jpg?tr=w-664"
+  },
+  "mercedes-benz-eqe-suv": {
+    "vehicle": "Mercedes-Benz EQE SUV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/mercedes-benz-eqe-suv.webp",
+    "page": "https://www.cardekho.com/mercedes-benz/eqe-suv",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mercedes-Benz/EQE-SUV/9404/1763471752200/front-left-side-47.jpg?tr=w-664"
+  },
+  "porsche-taycan-ev": {
+    "vehicle": "Porsche Taycan EV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/porsche-taycan-ev.webp",
+    "page": "https://www.cardekho.com/porsche/taycan",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/Taycan/11515/1769058931913/front-left-side-47.jpg?tr=w-664"
+  },
+  "tata-curvv-ev": {
+    "vehicle": "Tata Curvv EV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/tata-curvv-ev.webp",
+    "page": "https://www.cardekho.com/tata/curvv-ev",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Curvv-EV/13538/1777897776645/front-left-side-47.jpg?tr=w-664"
+  },
+  "mg-windsor-ev": {
+    "vehicle": "MG Windsor EV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/mg-windsor-ev.webp",
+    "page": "https://www.cardekho.com/mg/windsor-ev",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/MG/Windsor-EV/11848/1755845275936/front-left-side-47.jpg?tr=w-664"
+  },
+  "citroen-ec3": {
+    "vehicle": "Citroen eC3",
+    "category": "ev",
+    "file": "/images/vehicles/evs/citroen-ec3.webp",
+    "page": "https://www.cardekho.com/citroen/ec3",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Citroen/eC3/9598/1759125447377/front-left-side-47.jpg?tr=w-664"
+  },
+  "mg-comet-ev": {
+    "vehicle": "MG Comet EV",
+    "category": "ev",
+    "file": "/images/vehicles/evs/mg-comet-ev.webp",
+    "page": "https://www.cardekho.com/mg/comet-ev",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/MG/Comet-EV/11556/1772712400778/front-left-side-47.jpg?tr=w-664"
+  },
+  "byd-e6": {
+    "vehicle": "BYD e6",
+    "category": "ev",
+    "file": "/images/vehicles/evs/byd-e6.webp",
+    "page": "https://www.cardekho.com/byd/e6",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/BYD/E6/8675/1676289700142/front-left-side-47.jpg?tr=w-664"
+  },
+  "mini-cooper-se": {
+    "vehicle": "Mini Cooper SE",
+    "category": "ev",
+    "file": "/images/vehicles/evs/mini-cooper-se.webp",
+    "page": "https://www.cardekho.com/mini/cooper-se",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mini/Cooper-SE/8669/Mini-Cooper-SE-Electric/1645696928987/front-left-side-47.jpg?tr=w-664"
+  },
+  "jaguar-i-pace": {
+    "vehicle": "Jaguar I-Pace",
+    "category": "ev",
+    "file": "/images/vehicles/evs/jaguar-i-pace.webp",
+    "page": "https://www.cardekho.com/jaguar/i-pace",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Jaguar/I-Pace/8078/1701247629946/front-left-side-47.jpg?tr=w-664"
+  },
+  "lotus-eletre": {
+    "vehicle": "Lotus Eletre",
+    "category": "ev",
+    "file": "/images/vehicles/evs/lotus-eletre.webp",
+    "page": "https://www.cardekho.com/lotus/eletre",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Lotus/Eletre/11338/1769506334083/front-left-side-47.jpg?tr=w-664"
+  },
+  "audi-q8-e-tron": {
+    "vehicle": "Audi Q8 e-tron",
+    "category": "ev",
+    "file": "/images/vehicles/evs/audi-q8-e-tron.webp",
+    "page": "https://www.cardekho.com/audi/q8-e-tron",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Audi/Q8-e-tron/9435/1757403685467/front-left-side-47.jpg?tr=w-664"
+  },
+  "mercedes-benz-eqs": {
+    "vehicle": "Mercedes-Benz EQS",
+    "category": "ev",
+    "file": "/images/vehicles/evs/mercedes-benz-eqs.webp",
+    "page": "https://www.cardekho.com/mercedes-benz/eqs",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mercedes-Benz/EQS/8423/1763472088703/front-left-side-47.jpg?tr=w-664"
+  },
+  "bmw-ix": {
+    "vehicle": "BMW iX",
+    "category": "ev",
+    "file": "/images/vehicles/evs/bmw-ix.webp",
+    "page": "https://www.cardekho.com/bmw/ix",
+    "source": "https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/iX/11610/1775803362233/front-left-side-47.jpg?tr=w-664"
+  },
+  "royal-enfield-classic-350": {
+    "vehicle": "Royal Enfield Classic 350",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/royal-enfield-classic-350.webp",
+    "page": "https://www.bikedekho.com/royal-enfield/classic-350",
+    "source": "https://cdn.bikedekho.com/processedimages/royal-enfield/classic350/source/classic35068b6db31f3948.jpg?imwidth=400&impolicy=resize"
+  },
+  "royal-enfield-himalayan-450": {
+    "vehicle": "Royal Enfield Himalayan 450",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/royal-enfield-himalayan-450.webp",
+    "page": "https://www.bikedekho.com/royal-enfield/himalayan",
+    "source": "https://cdn.bikedekho.com/processedimages/royal-enfield/himalayan-450/source/himalayan-45069cba72ab286c.jpg?imwidth=400&impolicy=resize"
+  },
+  "yamaha-r15-v4": {
+    "vehicle": "Yamaha YZF R15 V4",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/yamaha-r15-v4.webp",
+    "page": "https://www.bikedekho.com/yamaha/r15-v4",
+    "source": "https://cdn.bikedekho.com/processedimages/yamaha/r15-v4/source/r15-v468bbb605ad77f.jpg?imwidth=400&impolicy=resize"
+  },
+  "ktm-390-duke": {
+    "vehicle": "KTM 390 Duke",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/ktm-390-duke.webp",
+    "page": "https://www.bikedekho.com/ktm/duke-390",
+    "source": "https://cdn.bikedekho.com/processedimages/ktm/350-duke/source/350-duke69f9b93d0a8de.jpg?imwidth=400&impolicy=resize"
+  },
+  "tvs-apache-rtr-160-4v": {
+    "vehicle": "TVS Apache RTR 160 4V",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/tvs-apache-rtr-160-4v.webp",
+    "page": "https://www.bikedekho.com/tvs/apache-rtr-160-4v",
+    "source": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v69ca641cc90b2.jpg?imwidth=400&impolicy=resize"
+  },
+  "bajaj-pulsar-ns200": {
+    "vehicle": "Bajaj Pulsar NS200",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/bajaj-pulsar-ns200.webp",
+    "page": "https://www.bikedekho.com/bajaj/pulsar-ns200",
+    "source": "https://cdn.bikedekho.com/processedimages/bajaj/bajaj-pulsar-200-ns/source/bajaj-pulsar-200-ns69b92dbd851a3.jpg?imwidth=400&impolicy=resize"
+  },
+  "honda-sp-125": {
+    "vehicle": "Honda SP 125",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/honda-sp-125.webp",
+    "page": "https://www.bikedekho.com/honda/sp125",
+    "source": "https://cdn.bikedekho.com/processedimages/honda/sp125/source/sp12568a70d4bcf14e.jpg?imwidth=400&impolicy=resize"
+  },
+  "hero-splendor-plus": {
+    "vehicle": "Hero Splendor Plus",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/hero-splendor-plus.webp",
+    "page": "https://www.bikedekho.com/hero/splendor-plus",
+    "source": "https://cdn.bikedekho.com/processedimages/hero-motocorp/hero-motocorp-splendor/source/hero-motocorp-splendor69ba806bcfb9f.jpg?imwidth=400&impolicy=resize"
+  },
+  "royal-enfield-hunter-350": {
+    "vehicle": "Royal Enfield Hunter 350",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/royal-enfield-hunter-350.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Royal_Enfield_Hunter_350_Rebel_balck.png",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Royal_Enfield_Hunter_350_Rebel_balck.png"
+  },
+  "suzuki-gixxer-sf-250": {
+    "vehicle": "Suzuki Gixxer SF 250",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/suzuki-gixxer-sf-250.webp",
+    "page": "https://www.bikedekho.com/suzuki/gixxer-sf-250",
+    "source": "https://cdn.bikedekho.com/processedimages/suzuki/gixxer-sf-250/source/gixxer-sf-25069789fbb9b9ed.jpg?imwidth=400&impolicy=resize"
+  },
+  "yamaha-mt-15-v2": {
+    "vehicle": "Yamaha MT 15 V2",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/yamaha-mt-15-v2.webp",
+    "page": "https://www.bikedekho.com/yamaha/mt-15",
+    "source": "https://cdn.bikedekho.com/processedimages/yamaha/mt-15-2-0/source/mt-15-2-06613f885e681c.jpg?imwidth=400&impolicy=resize"
+  },
+  "ktm-rc-200": {
+    "vehicle": "KTM RC 200",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/ktm-rc-200.webp",
+    "page": "https://www.bikedekho.com/ktm/rc-200",
+    "source": "https://cdn.bikedekho.com/processedimages/ktm/2021-rc-200/source/2021-rc-20068ce5643c52c7.jpg?imwidth=400&impolicy=resize"
+  },
+  "kawasaki-ninja-300": {
+    "vehicle": "Kawasaki Ninja 300",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/kawasaki-ninja-300.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:2013_Kawasaki_Ninja_300_Seattle_Motorcycle_Show.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/2013_Kawasaki_Ninja_300_Seattle_Motorcycle_Show.jpg/1280px-2013_Kawasaki_Ninja_300_Seattle_Motorcycle_Show.jpg"
+  },
+  "honda-hness-cb350": {
+    "vehicle": "Honda H'ness CB350",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/honda-hness-cb350.webp",
+    "page": "https://www.bikedekho.com/honda/hness-cb350",
+    "source": "https://cdn.bikedekho.com/processedimages/honda/honda-cruiser/source/honda-cruiser6a10421f5729f.jpg?imwidth=400&impolicy=resize"
+  },
+  "jawa-350": {
+    "vehicle": "Jawa Jawa 350",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/jawa-350.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Jawa_350-639.jpg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Jawa_350-639.jpg/1280px-Jawa_350-639.jpg"
+  },
+  "yezdi-roadster": {
+    "vehicle": "Yezdi Roadster",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/yezdi-roadster.webp",
+    "page": "https://www.bikedekho.com/harley-davidson/roadster",
+    "source": "https://cdn.bikedekho.com/processedimages/source/696227079fc1e.jpg?imwidth=400&impolicy=resize"
+  },
+  "triumph-speed-400": {
+    "vehicle": "Triumph Speed 400",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/triumph-speed-400.webp",
+    "page": "https://www.bikedekho.com/triumph/speed-400",
+    "source": "https://cdn.bikedekho.com/processedimages/triumph/speed-350/source/speed-35069d3602d1042e.jpg?imwidth=400&impolicy=resize"
+  },
+  "harley-davidson-x440": {
+    "vehicle": "Harley-Davidson X440",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/harley-davidson-x440.webp",
+    "page": "https://www.bikedekho.com/harley-davidson/x440",
+    "source": "https://cdn.bikedekho.com/processedimages/harley-davidson/x440/source/x440695f81379bc91.jpg?imwidth=400&impolicy=resize"
+  },
+  "tvs-ronin": {
+    "vehicle": "TVS Ronin",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/tvs-ronin.webp",
+    "page": "https://www.bikedekho.com/tvs/ronin",
+    "source": "https://cdn.bikedekho.com/processedimages/tvs/retron/source/retron6a0d5c32af27c.jpg?imwidth=400&impolicy=resize"
+  },
+  "hero-mavrick-440": {
+    "vehicle": "Hero Mavrick 440",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/hero-mavrick-440.webp",
+    "page": "https://www.bikedekho.com/hero/mavrick-440",
+    "source": "https://cdn.bikedekho.com/processedimages/hero/400cc-bike/source/400cc-bike6a0ab9ac077fa.jpg?imwidth=400&impolicy=resize"
+  },
+  "bajaj-avenger-cruise-220": {
+    "vehicle": "Bajaj Avenger Cruise 220",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/bajaj-avenger-cruise-220.webp",
+    "page": "https://www.bikedekho.com/bajaj/avenger-cruise-220",
+    "source": "https://cdn.bikedekho.com/processedimages/bajaj/bajaj-avenger-cruise/source/bajaj-avenger-cruise68d231f1733f1.jpg?imwidth=400&impolicy=resize"
+  },
+  "royal-enfield-continental-gt-650": {
+    "vehicle": "Royal Enfield Continental GT 650",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/royal-enfield-continental-gt-650.webp",
+    "page": "https://www.bikedekho.com/royal-enfield/continental-gt-650",
+    "source": "https://cdn.bikedekho.com/processedimages/royal-enfield/continental-gt-650/source/continental-gt-6506a05bfb6002a0.jpg?imwidth=400&impolicy=resize"
+  },
+  "suzuki-v-strom-sx-250": {
+    "vehicle": "Suzuki V-Strom SX 250",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/suzuki-v-strom-sx-250.webp",
+    "page": "https://www.bikedekho.com/suzuki/v-strom-sx",
+    "source": "https://cdn.bikedekho.com/processedimages/suzuki/v-strom-sx/source/v-strom-sx69527842e0960.jpg?imwidth=400&impolicy=resize"
+  },
+  "hero-xpulse-200-4v": {
+    "vehicle": "Hero Xpulse 200 4V",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/hero-xpulse-200-4v.webp",
+    "page": "https://www.bikedekho.com/hero/xpulse-200",
+    "source": "https://cdn.bikedekho.com/processedimages/hero/xpulse-200/source/xpulse-2006a141202b1991.jpg?imwidth=400&impolicy=resize"
+  },
+  "yamaha-fz-s-v4": {
+    "vehicle": "Yamaha FZ-S V4",
+    "category": "bike",
+    "file": "/images/vehicles/bikes/yamaha-fz-s-v4.webp",
+    "page": "https://www.bikedekho.com/yamaha/fzs-fi-v4",
+    "source": "https://cdn.bikedekho.com/processedimages/yamaha/fzs-fi-v4/source/fzs-fi-v46a10458db8a6c.jpg?imwidth=400&impolicy=resize"
+  },
+  "honda-activa-6g": {
+    "vehicle": "Honda Activa 6G",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/honda-activa-6g.webp",
+    "page": "https://www.bikedekho.com/honda/activa",
+    "source": "https://cdn.bikedekho.com/processedimages/honda/activa-6g/source/activa-6g68a6fb7b20bd3.jpg?imwidth=400&impolicy=resize"
+  },
+  "suzuki-access-125": {
+    "vehicle": "Suzuki Access 125",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/suzuki-access-125.webp",
+    "page": "https://www.bikedekho.com/suzuki/access-125",
+    "source": "https://cdn.bikedekho.com/processedimages/suzuki/2025-access-125/source/2025-access-12568a80430441e1.jpg?imwidth=400&impolicy=resize"
+  },
+  "tvs-jupiter-125": {
+    "vehicle": "TVS Jupiter 125",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/tvs-jupiter-125.webp",
+    "page": "https://www.bikedekho.com/tvs/jupiter-125",
+    "source": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg?imwidth=400&impolicy=resize"
+  },
+  "tvs-ntorq-125": {
+    "vehicle": "TVS Ntorq 125",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/tvs-ntorq-125.webp",
+    "page": "https://www.bikedekho.com/tvs/ntorq-125",
+    "source": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-12569fb15b15a582.jpg?imwidth=400&impolicy=resize"
+  },
+  "ather-450x": {
+    "vehicle": "Ather 450X",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/ather-450x.webp",
+    "page": "https://www.bikedekho.com/ather-energy/450x",
+    "source": "https://cdn.bikedekho.com/processedimages/ather-energy/2025-450x/source/2025-450x69a92155caf0d.jpg?imwidth=400&impolicy=resize"
+  },
+  "ola-s1-pro-gen-2": {
+    "vehicle": "Ola S1 Pro Gen 2",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/ola-s1-pro-gen-2.webp",
+    "page": "https://www.bikedekho.com/ola-electric/s1-pro",
+    "source": "https://cdn.bikedekho.com/processedimages/ola-electric/2025-s1-pro/source/2025-s1-pro69c65253ccb54.jpg?imwidth=400&impolicy=resize"
+  },
+  "tvs-iqube": {
+    "vehicle": "TVS iQube",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/tvs-iqube.webp",
+    "page": "https://www.bikedekho.com/tvs/iqube-electric",
+    "source": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric69f89957d2575.jpg?imwidth=400&impolicy=resize"
+  },
+  "bajaj-chetak": {
+    "vehicle": "Bajaj Chetak",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/bajaj-chetak.webp",
+    "page": "https://www.bikedekho.com/bajaj/chetak",
+    "source": "https://cdn.bikedekho.com/processedimages/bajaj/2022-chetak/source/2022-chetak6a018255064f1.jpg?imwidth=400&impolicy=resize"
+  },
+  "hero-vida-v1": {
+    "vehicle": "Hero Vida V1",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/hero-vida-v1.webp",
+    "page": "https://www.bikedekho.com/vida/v1-pro",
+    "source": "https://cdn.bikedekho.com/processedimages/hero-electric/scooter/source/scooter66f151afc7f19.jpg?imwidth=400&impolicy=resize"
+  },
+  "yamaha-aerox-155": {
+    "vehicle": "Yamaha Aerox 155",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/yamaha-aerox-155.webp",
+    "page": "https://www.bikedekho.com/yamaha/aerox-155",
+    "source": "https://cdn.bikedekho.com/processedimages/yamaha/aerox-155/source/aerox-155695b63cd77169.jpg?imwidth=400&impolicy=resize"
+  },
+  "aprilia-sr-160": {
+    "vehicle": "Aprilia SR 160",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/aprilia-sr-160.webp",
+    "page": "https://www.bikedekho.com/aprilia/sr-160",
+    "source": "https://cdn.bikedekho.com/processedimages/aprilia/sr-160-bs6/source/sr-160-bs668d68c94ccf40.jpg"
+  },
+  "vespa-vxl-150": {
+    "vehicle": "Vespa VXL 150",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/vespa-vxl-150.webp",
+    "page": "https://www.bikedekho.com/vespa/vxl-125",
+    "source": "https://cdn.bikedekho.com/processedimages/vespa/vxl-125/source/vxl-125648344094e5b4.jpg?imwidth=400&impolicy=resize"
+  },
+  "honda-dio": {
+    "vehicle": "Honda Dio",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/honda-dio.webp",
+    "page": "https://www.bikedekho.com/honda/dio",
+    "source": "https://cdn.bikedekho.com/processedimages/honda/2025-dio/source/2025-dio69c3ced694db2.jpg?imwidth=400&impolicy=resize"
+  },
+  "suzuki-burgman-street": {
+    "vehicle": "Suzuki Burgman Street",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/suzuki-burgman-street.webp",
+    "page": "https://www.bikedekho.com/suzuki/burgman-street",
+    "source": "https://cdn.bikedekho.com/processedimages/suzuki/burgman-street/source/burgman-street6a0eca705e2a9.jpg?imwidth=400&impolicy=resize"
+  },
+  "ather-rizta": {
+    "vehicle": "Ather Rizta",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/ather-rizta.webp",
+    "page": "https://www.bikedekho.com/ather-energy/rizta",
+    "source": "https://cdn.bikedekho.com/processedimages/ather-energy/family-scooter/source/family-scooter6a02b23c2fad8.jpg?imwidth=400&impolicy=resize"
+  },
+  "ola-s1-air": {
+    "vehicle": "Ola S1 Air",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/ola-s1-air.webp",
+    "page": "https://www.bikedekho.com/ola-electric/s1-air",
+    "source": "https://cdn.bikedekho.com/processedimages/ola-electric/s1-air/source/s1-air697b57119c7c5.jpg?imwidth=400&impolicy=resize"
+  },
+  "ola-s1-x": {
+    "vehicle": "Ola S1 X",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/ola-s1-x.webp",
+    "page": "https://www.bikedekho.com/ola-electric-bikes",
+    "source": "https://cdn.bikedekho.com/processedimages/ola-electric/2025-s1x/source/2025-s1x68da2f73768ac.jpg"
+  },
+  "tvs-jupiter-ev": {
+    "vehicle": "TVS Jupiter EV",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/tvs-jupiter-ev.webp",
+    "page": "https://www.bikedekho.com/tvs/iqube-electric",
+    "source": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric69f89957d2575.jpg?imwidth=400&impolicy=resize"
+  },
+  "ampere-primus": {
+    "vehicle": "Ampere Primus",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/ampere-primus.webp",
+    "page": "https://www.bikedekho.com/ampere/primus",
+    "source": "https://cdn.bikedekho.com/processedimages/ampere/primus/640X309/primus63fdf93a57212.jpg?imwidth=400&impolicy=resize"
+  },
+  "hero-zoom": {
+    "vehicle": "Hero Zoom",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/hero-zoom.webp",
+    "page": "https://www.bikedekho.com/hero/xoom-110",
+    "source": "https://cdn.bikedekho.com/processedimages/hero/xoom-110/source/xoom-110696db9c50bf29.jpg?imwidth=400&impolicy=resize"
+  },
+  "yamaha-rayzr-125": {
+    "vehicle": "Yamaha RayZR 125",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/yamaha-rayzr-125.webp",
+    "page": "https://www.bikedekho.com/yamaha/ray-zr-125",
+    "source": "https://cdn.bikedekho.com/processedimages/yamaha/ray-zr-125/source/ray-zr-12568a8198d15c01.jpg?imwidth=400&impolicy=resize"
+  },
+  "simple-one-ev": {
+    "vehicle": "Simple Energy Simple One",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/simple-one-ev.webp",
+    "page": "https://www.bikedekho.com/simple-energy/simple-one",
+    "source": "https://cdn.bikedekho.com/processedimages/simple-energy/simple-one/source/simple-one6964d3f677845.jpg?imwidth=400&impolicy=resize"
+  },
+  "kinetic-green-e-luna": {
+    "vehicle": "Kinetic Green E-Luna",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/kinetic-green-e-luna.webp",
+    "page": "https://www.bikedekho.com/kinetic-green/e-luna",
+    "source": "https://cdn.bikedekho.com/processedimages/kinetic/luna-electric/source/luna-electric696a3a433ab8b.jpg?imwidth=400&impolicy=resize"
+  },
+  "lml-star-ev": {
+    "vehicle": "LML Star EV",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/lml-star-ev.webp",
+    "page": "https://www.bikedekho.com/lml-scooters",
+    "source": "https://cdn.bikedekho.com/processedimages/lml/lml-star/source/lml-star69871af8bce06.jpg"
+  },
+  "bounce-infinity-e1": {
+    "vehicle": "Bounce Infinity E1",
+    "category": "scooter",
+    "file": "/images/vehicles/scooters/bounce-infinity-e1.webp",
+    "page": "https://www.bikedekho.com/bounce-scooters",
+    "source": "https://cdn.bikedekho.com/processedimages/bounce/e-scooter/source/e-scooter695f995f79bf5.jpg"
+  }
+}
