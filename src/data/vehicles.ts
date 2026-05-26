@@ -1260,7 +1260,6 @@ const RAW_VEHICLES: Omit<Vehicle, "images" | "image">[] = [
     price: 46.05,
     rating: 4.8,
     reviews: 840,
-    image: img("1606664515524-ed2f786a0bd6", 207),
     tagline: "Retro-futuristic masterpiece built on dedicated E-GMP 800V ultra-fast architecture.",
     isElectric: true,
     specs: {
@@ -3524,6 +3523,7 @@ const RAW_VEHICLES: Omit<Vehicle, "images" | "image">[] = [
     price: 1.66,
     rating: 4.6,
     reviews: 580,
+    tagline: "A long-range electric scooter built to outlast the daily commute with ease.",
     isElectric: true,
     specs: {
       range: "212 km",
@@ -3558,6 +3558,7 @@ const RAW_VEHICLES: Omit<Vehicle, "images" | "image">[] = [
     price: 0.7,
     rating: 4.4,
     reviews: 1400,
+    tagline: "A no-nonsense utility EV focused on affordability, load-carrying, and simplicity.",
     isElectric: true,
     specs: {
       range: "110 km",
@@ -3592,6 +3593,7 @@ const RAW_VEHICLES: Omit<Vehicle, "images" | "image">[] = [
     price: 1.2,
     rating: 4.5,
     reviews: 290,
+    tagline: "A futuristic electric scooter with an unusual screen-first design and urban focus.",
     isElectric: true,
     specs: {
       range: "120 km",
@@ -3626,6 +3628,7 @@ const RAW_VEHICLES: Omit<Vehicle, "images" | "image">[] = [
     price: 0.89,
     rating: 4.3,
     reviews: 1900,
+    tagline: "An affordable battery-subscription EV scooter aimed at practical city riding.",
     isElectric: true,
     specs: {
       range: "85 km",

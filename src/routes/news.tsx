@@ -492,7 +492,7 @@ function Newsroom() {
                     </div>
                   </div>
                   <Button size="sm" asChild className="rounded-full shrink-0">
-                    <Link to={`/vehicles/${relatedVehicle.slug}`}>
+                    <Link to="/vehicles/$slug" params={{ slug: relatedVehicle.slug }}>
                       Explore Specs <ChevronRight className="h-3.5 w-3.5 ml-1" />
                     </Link>
                   </Button>

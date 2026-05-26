@@ -49,7 +49,7 @@ const BUDGET_RANGES = [
 
 function Vehicles() {
   const searchParams = Route.useSearch();
-  const navigate = useNavigate({ from: "/vehicles" });
+  const navigate = useNavigate({ from: "/vehicles/" });
   
   const [query, setQuery] = useState(searchParams.q ?? "");
   
@@ -58,7 +58,7 @@ function Vehicles() {
 
   const updateSearch = (newParams: Partial<SearchParams>) => {
     navigate({
-      search: (prev) => {
+      search: (prev: SearchParams) => {
         const next = { ...prev, ...newParams };
         // Clean up undefined/empty string params
         Object.keys(next).forEach((key) => {
@@ -73,7 +73,7 @@ function Vehicles() {
 
   const clearFilters = () => {
     setQuery("");
-    navigate({ search: {} });
+    navigate({ search: {} as SearchParams });
   };
 
   const filtered = useMemo(() => {
