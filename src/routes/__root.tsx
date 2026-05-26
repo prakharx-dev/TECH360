@@ -72,14 +72,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "TECH360 — The Future of Mobility, Decoded" },
+      {
+        name: "description",
+        content:
+          "Discover vehicles, compare specs, read reviews, and get AI-powered recommendations across cars, EVs, bikes, and scooters.",
+      },
+      { name: "author", content: "TECH360" },
+      { name: "theme-color", content: "#0f172a" },
+      { property: "og:title", content: "TECH360 — The Future of Mobility, Decoded" },
+      {
+        property: "og:description",
+        content:
+          "Discover vehicles, compare specs, read reviews, and get AI-powered recommendations across cars, EVs, bikes, and scooters.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@tech360" },
     ],
     links: [
       {
@@ -109,11 +118,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body className="bg-background text-foreground antialiased overflow-x-hidden">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.14),transparent_32%),radial-gradient(circle_at_80%_20%,rgba(14,165,233,0.08),transparent_24%),linear-gradient(to_bottom,rgba(255,255,255,0.03),transparent_18%)]"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none fixed inset-0 -z-10 opacity-[0.06] bg-[linear-gradient(to_right,rgba(255,255,255,0.22)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.22)_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_70%_50%_at_50%_0%,#000_70%,transparent_100%)]"
+        />
         {children}
         <Scripts />
       </body>
