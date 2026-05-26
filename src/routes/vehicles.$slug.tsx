@@ -138,6 +138,59 @@ function Detail() {
               </button>
             </div>
 
+            {/* Overview Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+              <div className="rounded-xl border border-border bg-card p-4">
+                <h3 className="text-sm text-muted-foreground uppercase tracking-widest">
+                  Powertrain
+                </h3>
+                <div className="mt-3 text-sm space-y-2">
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Engine / Motor</span>
+                    <span className="font-medium">{v.specs.engine || v.specs.battery || "—"}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Power</span>
+                    <span className="font-medium">{v.specs.power || "—"}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Torque</span>
+                    <span className="font-medium">{v.specs.torque || "—"}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Transmission</span>
+                    <span className="font-medium">
+                      {v.specs.transmission || (v.isElectric ? "Single-speed" : "—")}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-xl border border-border bg-card p-4">
+                <h3 className="text-sm text-muted-foreground uppercase tracking-widest">
+                  Performance & Capacity
+                </h3>
+                <div className="mt-3 text-sm space-y-2">
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Top Speed</span>
+                    <span className="font-medium">{v.specs.topSpeed || "—"}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Mileage / Range</span>
+                    <span className="font-medium">{v.specs.mileage || v.specs.range || "—"}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Seating</span>
+                    <span className="font-medium">{v.specs.seating || "5"}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Kerb Weight</span>
+                    <span className="font-medium">{v.specs.weight || "—"}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* CarWale Style Key Specs Grid */}
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="flex items-center gap-3 p-4 rounded-xl border border-border bg-card">

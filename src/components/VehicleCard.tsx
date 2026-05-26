@@ -3,6 +3,13 @@ import { Star, Zap, Settings, Gauge, Users, ArrowRight } from "lucide-react";
 import type { Vehicle } from "@/data/vehicles";
 import { Button } from "@/components/ui/button";
 
+const vehicleSnapshot = (vehicle: Vehicle) =>
+  [
+    vehicle.specs.engine || vehicle.specs.battery || vehicle.bodyType,
+    vehicle.specs.transmission || (vehicle.isElectric ? "Automatic" : "Manual/Automatic"),
+    vehicle.specs.topSpeed,
+  ].filter(Boolean);
+
 export function VehicleCard({
   vehicle,
   index = 0,
@@ -58,6 +65,17 @@ export function VehicleCard({
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mt-2 line-clamp-1">{v.tagline}</p>
+
+              <div className="flex flex-wrap gap-2 mt-4">
+                {vehicleSnapshot(v).map((item) => (
+                  <span
+                    key={item}
+                    className="inline-flex items-center rounded-full border border-border bg-muted/40 px-2.5 py-1 text-[11px] text-muted-foreground"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
 
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
                 <div>
@@ -166,6 +184,7 @@ export function VehicleCard({
                 {v.isElectric ? "Range" : "Mileage"}
               </p>
               <p className="font-medium">{v.specs.range ?? v.specs.mileage}</p>
+              <p className="text-xs text-muted-foreground mt-1">{v.specs.topSpeed}</p>
             </div>
           </div>
         </div>
