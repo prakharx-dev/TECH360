@@ -24,7 +24,12 @@ export const Route = createFileRoute("/vehicles/")({
     brand: typeof s.brand === "string" ? s.brand : undefined,
     bodyType: typeof s.bodyType === "string" ? s.bodyType : undefined,
     fuel: typeof s.fuel === "string" ? s.fuel : undefined,
-    maxPrice: typeof s.maxPrice === "number" ? s.maxPrice : !isNaN(Number(s.maxPrice)) ? Number(s.maxPrice) : undefined,
+    maxPrice:
+      typeof s.maxPrice === "number"
+        ? s.maxPrice
+        : !isNaN(Number(s.maxPrice))
+          ? Number(s.maxPrice)
+          : undefined,
   }),
   head: () => ({ meta: [{ title: "Find Vehicles — TECH360" }] }),
 });
@@ -37,9 +42,11 @@ const CATEGORY_MAP: Record<string, VehicleCategory | undefined> = {
 };
 
 // Generate unique options for filters
-const BRANDS = Array.from(new Set(VEHICLES.map(v => v.brand))).sort();
-const BODY_TYPES = Array.from(new Set(VEHICLES.map(v => v.bodyType))).sort();
-const FUEL_TYPES = Array.from(new Set(VEHICLES.map(v => v.isElectric ? 'Electric' : v.specs.fuel).filter(Boolean))).sort();
+const BRANDS = Array.from(new Set(VEHICLES.map((v) => v.brand))).sort();
+const BODY_TYPES = Array.from(new Set(VEHICLES.map((v) => v.bodyType))).sort();
+const FUEL_TYPES = Array.from(
+  new Set(VEHICLES.map((v) => (v.isElectric ? "Electric" : v.specs.fuel)).filter(Boolean)),
+).sort();
 const BUDGET_RANGES = [
   { label: "Under ₹10 Lakh", max: 10 },
   { label: "Under ₹20 Lakh", max: 20 },
@@ -50,9 +57,9 @@ const BUDGET_RANGES = [
 function Vehicles() {
   const searchParams = Route.useSearch();
   const navigate = useNavigate({ from: "/vehicles/" });
-  
+
   const [query, setQuery] = useState(searchParams.q ?? "");
-  
+
   // Make "list" the default view (CarWale style)
   const [view, setView] = useState<"grid" | "list">("list");
 
@@ -62,7 +69,10 @@ function Vehicles() {
         const next = { ...prev, ...newParams };
         // Clean up undefined/empty string params
         Object.keys(next).forEach((key) => {
-          if (next[key as keyof SearchParams] === undefined || next[key as keyof SearchParams] === "") {
+          if (
+            next[key as keyof SearchParams] === undefined ||
+            next[key as keyof SearchParams] === ""
+          ) {
             delete next[key as keyof SearchParams];
           }
         });
@@ -80,15 +90,18 @@ function Vehicles() {
     const cat = searchParams.category ? CATEGORY_MAP[searchParams.category] : undefined;
     return VEHICLES.filter((v) => {
       if (cat && v.category !== cat) return false;
-      if (searchParams.brand && v.brand.toLowerCase() !== searchParams.brand.toLowerCase()) return false;
-      if (searchParams.bodyType && v.bodyType.toLowerCase() !== searchParams.bodyType.toLowerCase()) return false;
+      if (searchParams.brand && v.brand.toLowerCase() !== searchParams.brand.toLowerCase())
+        return false;
+      if (searchParams.bodyType && v.bodyType.toLowerCase() !== searchParams.bodyType.toLowerCase())
+        return false;
       if (searchParams.maxPrice && v.price > searchParams.maxPrice) return false;
       if (searchParams.fuel) {
-         const vFuel = v.isElectric ? "Electric" : v.specs.fuel;
-         if (vFuel?.toLowerCase() !== searchParams.fuel.toLowerCase()) return false;
+        const vFuel = v.isElectric ? "Electric" : v.specs.fuel;
+        if (vFuel?.toLowerCase() !== searchParams.fuel.toLowerCase()) return false;
       }
-      if (query && !`${v.name} ${v.brand}`.toLowerCase().includes(query.toLowerCase())) return false;
-      
+      if (query && !`${v.name} ${v.brand}`.toLowerCase().includes(query.toLowerCase()))
+        return false;
+
       return true;
     });
   }, [searchParams, query]);
@@ -102,7 +115,6 @@ function Vehicles() {
       />
       <section className="container mx-auto max-w-7xl px-4 md:px-6 py-10">
         <div className="grid lg:grid-cols-[280px_1fr] gap-8 items-start">
-          
           {/* Enhanced Sidebar Filters */}
           <aside className="space-y-6 sticky top-24">
             <div className="rounded-xl border border-border bg-card overflow-hidden">
@@ -111,14 +123,18 @@ function Vehicles() {
                   <Filter className="h-4 w-4" /> Filters
                 </div>
                 {Object.keys(searchParams).length > 0 && (
-                   <button onClick={clearFilters} className="text-xs text-primary hover:underline">Clear all</button>
+                  <button onClick={clearFilters} className="text-xs text-primary hover:underline">
+                    Clear all
+                  </button>
                 )}
               </div>
-              
+
               <div className="p-5 space-y-6 divide-y divide-border">
                 {/* Search */}
                 <div>
-                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">Search</label>
+                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">
+                    Search
+                  </label>
                   <div className="relative">
                     <Search className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
                     <Input
@@ -132,19 +148,33 @@ function Vehicles() {
 
                 {/* Budget */}
                 <div className="pt-6">
-                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">Budget</label>
+                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">
+                    Budget
+                  </label>
                   <div className="space-y-2">
                     {BUDGET_RANGES.map((b) => (
                       <label key={b.max} className="flex items-center gap-3 cursor-pointer group">
-                        <div className={`w-4 h-4 rounded-full border flex items-center justify-center transition-colors ${searchParams.maxPrice === b.max ? 'border-primary' : 'border-border group-hover:border-primary/50'}`}>
-                           {searchParams.maxPrice === b.max && <div className="w-2 h-2 rounded-full bg-primary" />}
+                        <div
+                          className={`w-4 h-4 rounded-full border flex items-center justify-center transition-colors ${searchParams.maxPrice === b.max ? "border-primary" : "border-border group-hover:border-primary/50"}`}
+                        >
+                          {searchParams.maxPrice === b.max && (
+                            <div className="w-2 h-2 rounded-full bg-primary" />
+                          )}
                         </div>
-                        <span className={`text-sm ${searchParams.maxPrice === b.max ? 'font-medium text-foreground' : 'text-muted-foreground'}`}>{b.label}</span>
+                        <span
+                          className={`text-sm ${searchParams.maxPrice === b.max ? "font-medium text-foreground" : "text-muted-foreground"}`}
+                        >
+                          {b.label}
+                        </span>
                         <input
-                           type="radio"
-                           className="hidden"
-                           checked={searchParams.maxPrice === b.max}
-                           onChange={() => updateSearch({ maxPrice: searchParams.maxPrice === b.max ? undefined : b.max })}
+                          type="radio"
+                          className="hidden"
+                          checked={searchParams.maxPrice === b.max}
+                          onChange={() =>
+                            updateSearch({
+                              maxPrice: searchParams.maxPrice === b.max ? undefined : b.max,
+                            })
+                          }
                         />
                       </label>
                     ))}
@@ -153,19 +183,36 @@ function Vehicles() {
 
                 {/* Brand */}
                 <div className="pt-6">
-                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">Brand</label>
+                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">
+                    Brand
+                  </label>
                   <div className="space-y-2 max-h-48 overflow-y-auto pr-2 custom-scrollbar">
                     {BRANDS.map((brand) => (
                       <label key={brand} className="flex items-center gap-3 cursor-pointer group">
-                        <div className={`w-4 h-4 rounded-sm border flex items-center justify-center transition-colors ${searchParams.brand?.toLowerCase() === brand.toLowerCase() ? 'bg-primary border-primary text-primary-foreground' : 'border-border group-hover:border-primary/50'}`}>
-                           {searchParams.brand?.toLowerCase() === brand.toLowerCase() && <Check className="h-3 w-3" />}
+                        <div
+                          className={`w-4 h-4 rounded-sm border flex items-center justify-center transition-colors ${searchParams.brand?.toLowerCase() === brand.toLowerCase() ? "bg-primary border-primary text-primary-foreground" : "border-border group-hover:border-primary/50"}`}
+                        >
+                          {searchParams.brand?.toLowerCase() === brand.toLowerCase() && (
+                            <Check className="h-3 w-3" />
+                          )}
                         </div>
-                        <span className={`text-sm ${searchParams.brand?.toLowerCase() === brand.toLowerCase() ? 'font-medium text-foreground' : 'text-muted-foreground'}`}>{brand}</span>
+                        <span
+                          className={`text-sm ${searchParams.brand?.toLowerCase() === brand.toLowerCase() ? "font-medium text-foreground" : "text-muted-foreground"}`}
+                        >
+                          {brand}
+                        </span>
                         <input
-                           type="checkbox"
-                           className="hidden"
-                           checked={searchParams.brand?.toLowerCase() === brand.toLowerCase()}
-                           onChange={() => updateSearch({ brand: searchParams.brand?.toLowerCase() === brand.toLowerCase() ? undefined : brand.toLowerCase() })}
+                          type="checkbox"
+                          className="hidden"
+                          checked={searchParams.brand?.toLowerCase() === brand.toLowerCase()}
+                          onChange={() =>
+                            updateSearch({
+                              brand:
+                                searchParams.brand?.toLowerCase() === brand.toLowerCase()
+                                  ? undefined
+                                  : brand.toLowerCase(),
+                            })
+                          }
                         />
                       </label>
                     ))}
@@ -174,42 +221,49 @@ function Vehicles() {
 
                 {/* Body Type */}
                 <div className="pt-6">
-                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">Body Type</label>
+                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">
+                    Body Type
+                  </label>
                   <div className="flex flex-wrap gap-2">
                     {BODY_TYPES.map((type) => {
-                       const isActive = searchParams.bodyType?.toLowerCase() === type.toLowerCase();
-                       return (
-                         <button
-                           key={type}
-                           onClick={() => updateSearch({ bodyType: isActive ? undefined : type.toLowerCase() })}
-                           className={`px-3 py-1.5 rounded-md text-xs transition-colors border ${isActive ? 'bg-primary/10 border-primary/30 text-primary font-medium' : 'bg-background border-border text-muted-foreground hover:border-foreground/20'}`}
-                         >
-                           {type}
-                         </button>
-                       );
+                      const isActive = searchParams.bodyType?.toLowerCase() === type.toLowerCase();
+                      return (
+                        <button
+                          key={type}
+                          onClick={() =>
+                            updateSearch({ bodyType: isActive ? undefined : type.toLowerCase() })
+                          }
+                          className={`px-3 py-1.5 rounded-md text-xs transition-colors border ${isActive ? "bg-primary/10 border-primary/30 text-primary font-medium" : "bg-background border-border text-muted-foreground hover:border-foreground/20"}`}
+                        >
+                          {type}
+                        </button>
+                      );
                     })}
                   </div>
                 </div>
 
                 {/* Fuel Type */}
                 <div className="pt-6">
-                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">Fuel Type</label>
+                  <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground block mb-3">
+                    Fuel Type
+                  </label>
                   <div className="flex flex-wrap gap-2">
                     {FUEL_TYPES.map((type) => {
-                       const isActive = searchParams.fuel?.toLowerCase() === type?.toLowerCase();
-                       return (
-                         <button
-                           key={type}
-                           onClick={() => updateSearch({ fuel: isActive ? undefined : type?.toLowerCase() })}
-                           className={`px-3 py-1.5 rounded-md text-xs transition-colors border ${isActive ? 'bg-primary/10 border-primary/30 text-primary font-medium' : 'bg-background border-border text-muted-foreground hover:border-foreground/20'}`}
-                         >
-                           {type}
-                         </button>
-                       );
+                      const isActive = searchParams.fuel?.toLowerCase() === type?.toLowerCase();
+                      return (
+                        <button
+                          key={type}
+                          onClick={() =>
+                            updateSearch({ fuel: isActive ? undefined : type?.toLowerCase() })
+                          }
+                          className={`px-3 py-1.5 rounded-md text-xs transition-colors border ${isActive ? "bg-primary/10 border-primary/30 text-primary font-medium" : "bg-background border-border text-muted-foreground hover:border-foreground/20"}`}
+                        >
+                          {type}
+                        </button>
+                      );
                     })}
                   </div>
                 </div>
-
               </div>
             </div>
           </aside>
@@ -238,29 +292,37 @@ function Vehicles() {
 
             {/* Active Filters Display */}
             {Object.keys(searchParams).length > 0 && (
-               <div className="flex flex-wrap gap-2 mb-6">
-                  {Object.entries(searchParams).map(([k, v]) => {
-                     if (!v) return null;
-                     return (
-                        <span key={k} className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-muted border border-border text-xs text-foreground">
-                           {k}: {v}
-                           <button onClick={() => updateSearch({ [k]: undefined })} className="hover:text-destructive">
-                              <X className="h-3 w-3" />
-                           </button>
-                        </span>
-                     )
-                  })}
-               </div>
+              <div className="flex flex-wrap gap-2 mb-6">
+                {Object.entries(searchParams).map(([k, v]) => {
+                  if (!v) return null;
+                  return (
+                    <span
+                      key={k}
+                      className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-muted border border-border text-xs text-foreground"
+                    >
+                      {k}: {v}
+                      <button
+                        onClick={() => updateSearch({ [k]: undefined })}
+                        className="hover:text-destructive"
+                      >
+                        <X className="h-3 w-3" />
+                      </button>
+                    </span>
+                  );
+                })}
+              </div>
             )}
 
             <div
-              className={view === "grid" ? "grid sm:grid-cols-2 xl:grid-cols-3 gap-5" : "flex flex-col gap-5"}
+              className={
+                view === "grid" ? "grid sm:grid-cols-2 xl:grid-cols-3 gap-5" : "flex flex-col gap-5"
+              }
             >
               {filtered.map((v, i) => (
                 <VehicleCard key={v.id} vehicle={v} index={i} viewMode={view} />
               ))}
             </div>
-            
+
             {filtered.length === 0 && (
               <div className="text-center py-24 rounded-xl border border-dashed border-border bg-card text-muted-foreground">
                 <Search className="h-8 w-8 mx-auto mb-3 opacity-50 text-muted-foreground" />
@@ -281,7 +343,18 @@ function Vehicles() {
 // Ensure Check is available for checkboxes
 function Check(props: any) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
       <polyline points="20 6 9 17 4 12" />
     </svg>
   );

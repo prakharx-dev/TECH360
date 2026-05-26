@@ -130,7 +130,10 @@ function Detail() {
                 <span className="text-3xl font-semibold">₹{v.price.toFixed(2)} Lakh</span>
                 <span className="text-sm text-muted-foreground">Avg. Ex-Showroom price</span>
               </div>
-              <button type="button" className="text-sm text-primary hover:underline mt-1 inline-block">
+              <button
+                type="button"
+                className="text-sm text-primary hover:underline mt-1 inline-block"
+              >
                 View On-Road Price in your city
               </button>
             </div>

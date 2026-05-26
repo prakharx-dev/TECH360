@@ -24,9 +24,7 @@ export function PageHeader({
     <section className="border-b border-border">
       <div className="container mx-auto max-w-7xl px-4 md:px-6 py-14 md:py-20">
         {eyebrow && (
-          <p className="text-xs text-muted-foreground uppercase tracking-widest mb-3">
-            {eyebrow}
-          </p>
+          <p className="text-xs text-muted-foreground uppercase tracking-widest mb-3">{eyebrow}</p>
         )}
         <h1 className="text-3xl md:text-5xl font-semibold tracking-tight max-w-3xl">{title}</h1>
         {description && (
